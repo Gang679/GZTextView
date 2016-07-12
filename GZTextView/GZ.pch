@@ -1,0 +1,17 @@
+//
+//  GZ.pch
+//  GZTextView
+//
+//  Created by xinshijie on 16/6/25.
+//  Copyright © 2016年 Mr.quan. All rights reserved.
+//
+
+#ifndef GZ_pch
+#define GZ_pch
+
+#define GZTextBorderColor [UIColor grayColor]
+#undef  GZRGBCOLOR
+#define GZRGBCOLOR(r,g,b) [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:1]
+#define GZScreenWidth [UIScreen mainScreen].bounds.size.width
+
+#endif /* GZ_pch */
