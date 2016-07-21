@@ -15,6 +15,7 @@
 		4D21F8021D34D80A006A380A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D21F8001D34D80A006A380A /* LaunchScreen.storyboard */; };
 		4D21F80D1D34D80A006A380A /* GZTextViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D21F80C1D34D80A006A380A /* GZTextViewTests.m */; };
 		4D21F8181D34D80A006A380A /* GZTextViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D21F8171D34D80A006A380A /* GZTextViewUITests.m */; };
+		4D21F8281D34D8BC006A380A /* GZTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D21F8271D34D8BC006A380A /* GZTextView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		4D21F8131D34D80A006A380A /* GZTextViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GZTextViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D21F8171D34D80A006A380A /* GZTextViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GZTextViewUITests.m; sourceTree = "<group>"; };
 		4D21F8191D34D80A006A380A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D21F8261D34D8BC006A380A /* GZTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GZTextView.h; sourceTree = "<group>"; };
+		4D21F8271D34D8BC006A380A /* GZTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GZTextView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		4D21F7F11D34D80A006A380A /* GZTextView */ = {
 			isa = PBXGroup;
 			children = (
+				4D21F8251D34D8A0006A380A /* TextFiled */,
 				4D21F7F51D34D80A006A380A /* AppDelegate.h */,
 				4D21F7F61D34D80A006A380A /* AppDelegate.m */,
 				4D21F7F81D34D80A006A380A /* ViewController.h */,
@@ -138,6 +142,15 @@
 				4D21F8191D34D80A006A380A /* Info.plist */,
 			);
 			path = GZTextViewUITests;
+			sourceTree = "<group>";
+		};
+		4D21F8251D34D8A0006A380A /* TextFiled */ = {
+			isa = PBXGroup;
+			children = (
+				4D21F8261D34D8BC006A380A /* GZTextView.h */,
+				4D21F8271D34D8BC006A380A /* GZTextView.m */,
+			);
+			name = TextFiled;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,6 +286,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D21F8281D34D8BC006A380A /* GZTextView.m in Sources */,
 				4D21F7FA1D34D80A006A380A /* ViewController.m in Sources */,
 				4D21F7F71D34D80A006A380A /* AppDelegate.m in Sources */,
 				4D21F7F41D34D80A006A380A /* main.m in Sources */,
